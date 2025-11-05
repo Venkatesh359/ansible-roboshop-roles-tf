@@ -43,14 +43,14 @@ This Ansible project automates the **installation, configuration, and deployment
 Run the main playbook:
 
 ```bash
-ansible-playbook -i inventory.ini main.yml
+ansible-playbook -i inventory.ini main.yaml
 ```
 
 
 Pass dynamic variables if needed:
 
 ```bash
-ansible-playbook -i inventory.ini main.yml -e “instances=[‘mysql’,’rabbitmq’,’redis’,’mongodb’]”
+ansible-playbook -i inventory.ini main.yaml -e “instances=[‘mysql’,’rabbitmq’,’redis’,’mongodb’]”
 ```
 -----
 
