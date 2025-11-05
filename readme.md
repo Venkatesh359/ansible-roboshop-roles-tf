@@ -58,16 +58,16 @@ ansible-playbook -i inventory.ini main.yaml -e “instances=[‘mysql’,’rabb
 
 | Playbook | Purpose |
 |:---|:---|
-| `mongo.yml` | Installs and configures MongoDB |
-| `mysql.yml` | Installs MySQL and loads schema |
-| `redis.yml` | Installs Redis for caching |
-| `rabbitmq.yml` | Installs RabbitMQ for messaging |
-| `catalogue.yml` | Deploys Node.js Catalogue service |
-| `user.yml` | Deploys User microservice |
-| `cart.yml` | Deploys Cart microservice |
-| `shipping.yml` | Deploys Java-based Shipping service |
-| `payment.yml` | Deploys Python-based Payment service |
-| `frontend.yml` | Deploys Nginx-based frontend and connects APIs |
+| `mongo.yaml` | Installs and configures MongoDB |
+| `mysql.yaml` | Installs MySQL and loads schema |
+| `redis.yaml` | Installs Redis for caching |
+| `rabbitmq.yaml` | Installs RabbitMQ for messaging |
+| `catalogue.yaml` | Deploys Node.js Catalogue service |
+| `user.yaml` | Deploys User microservice |
+| `cart.yaml` | Deploys Cart microservice |
+| `shipping.yaml` | Deploys Java-based Shipping service |
+| `payment.yaml` | Deploys Python-based Payment service |
+| `frontend.yaml` | Deploys Nginx-based frontend and connects APIs |
 
 -----
 
