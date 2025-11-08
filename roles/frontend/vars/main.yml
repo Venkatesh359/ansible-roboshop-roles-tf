@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.venkatesh.fun
+USER_HOST: user.backend-alb-{{ env }}.venkatesh.fun
+CART_HOST: cart.backend-alb-{{ env }}.venkatesh.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.venkatesh.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.venkatesh.fun
